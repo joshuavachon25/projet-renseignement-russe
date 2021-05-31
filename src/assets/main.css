@@ -3,3 +3,81 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  max-width: 100vw;
+  max-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  overflow:hidden;
+}
+
+#frame{
+  width: 100%;
+  height: 100vh;
+}
+
+#nav{
+  width: 80px;
+  height: 100vh;
+  background: #2E3440;
+  display: block;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top:0;
+  left:0;
+  z-index:999;
+}
+
+#wrap{
+  width: calc(100vw - 80px);
+  height: 100vh;
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+#nav .material-icons{
+  width: 80px;
+  height: 80px;
+  font-size: 70px;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  position: relative;
+  z-index: 0;
+}
+
+.material-icons{
+  font-family: 'Material Icons';
+}
+
+#nav a {
+  width: 80px;
+  height: 80px;
+  text-decoration: none;
+  overflow:hidden;
+  transition: 0.5s;
+  
+}
+
+#nav a:hover{
+  width:300px;
+  background-color: #BF616A;
+}
+
+.titrebtn{
+  font-family: 'Exo', Arial;
+  display: inline-block;
+  width: calc(100% - 80px);
+  text-align: center;
+  line-height: 80px;
+  transform: translate(0, -30px);
+  color: white;
+  font-size: 20px;
+}
+
+.router-link-exact-active{
+  background-color: #BF616A;
+}
