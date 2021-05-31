@@ -41,7 +41,7 @@ body{
 #nav .material-icons{
   width: 80px;
   height: 80px;
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
   line-height: 80px;
   color: white;
@@ -59,7 +59,6 @@ body{
   text-decoration: none;
   overflow:hidden;
   transition: 0.5s;
-  
 }
 
 #nav a:hover{
@@ -70,14 +69,27 @@ body{
 .titrebtn{
   font-family: 'Exo', Arial;
   display: inline-block;
-  width: calc(100% - 80px);
+  width: 0px;
   text-align: center;
   line-height: 80px;
-  transform: translate(0, -30px);
+  transform: translate(0, -40%);
   color: white;
+  font-size: 0px;
+  transition: 0.5s;
+}
+
+#nav a:hover .titrebtn{
   font-size: 20px;
+  width: 220px;
+
 }
 
 .router-link-exact-active{
   background-color: #BF616A;
+}
+
+.icon{
+  width: 80px;
+
+  padding: 20px;
 }
