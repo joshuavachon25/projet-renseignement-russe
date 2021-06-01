@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="263.07141mm"
-   height="195.79169mm"
-   viewBox="0 0 263.07141 195.79169"
+   width="333.375mm"
+   height="315.9881mm"
+   viewBox="0 0 333.375 315.9881"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1649.9999"
-     inkscape:cy="374.28572"
+     inkscape:cx="735.71414"
+     inkscape:cy="662.85715"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,20 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="34.773805,418.04167"
+       orientation="1,0"
+       id="guide2131"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="297.84522,377.97619"
+       orientation="1,0"
+       id="guide2133"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -44,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,7 +65,14 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(468.69046,129.35716)">
+     transform="translate(502.70831,173.20238)">
+    <ellipse
+       style="opacity:1;fill:#96acc9;fill-opacity:1;stroke:none;stroke-width:58.85647964;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.97894736;paint-order:normal"
+       id="path2135"
+       cx="-336.02081"
+       cy="-15.208332"
+       rx="166.6875"
+       ry="157.99405" />
     <g
        id="g3850">
       <rect

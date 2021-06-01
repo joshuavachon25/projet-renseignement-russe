@@ -15,65 +15,67 @@
 
   .titre {
   font-family: Candara;
-  color: green;
+  color:#E7CDF2;
   font-weight: bold;
   font-size: 20px;
 }
 .texte {
   font-family: Times;
-  color: black;
+  color: white;
   text-align: left|justify;
   font-size: 16px;
+  word-wrap: break-word;
 }
 
 .auteur {
   font-family: Arial;
-  color: green;
+  color: #E7CDF2;
   font-size: 16px;
 }
 
 .agent {
   font-family: Arial;
-  color: white;
+  color: #E7CDF2;
   font-size: 14px;
   display: none
 }
 
 .archive {
   font-family: Arial;
-  color: green;
+  color: #E7CDF2;
   font-size: 14px;
   }
 
 .defImage {
   font-family: Arial;
-  color: black;
+  color: #E7CDF2;
   text-align: center;
   font-size: 12px;
 }
 .credits {
   font-family: Arial;
-  color: blue;
+  color: #E7CDF2;
   text-align: center;
   font-size: 10px;
 }
 
 .titreArchive {
   font-family: Arial;
-  color: green;
+  color: #E7CDF2;
   font-size: 14px;
   }
 
 .date {
   font-family: Arial;
-  color: green;
+  color: #E7CDF2;
   font-size: 14px;
 }
 
 .ref {
   font-family: Arial;
-  color: green;
+  color: #E7CDF2;
   font-size: 14px;
+  word-wrap: break-word;
 }
 
 .tag {
@@ -83,21 +85,21 @@
 
 .custom-popup {
   border-radius: 2px;
-  color: #504e4e;
+  color: black;
   font-size: 10%;
   line-height: 10px;
-  height: 10 px ;
+  height: 10px ;
   max-height: 300px;
   }
 
 .custom-popup, .leaflet-popup-tip {
-  background: #e7e7e7;
+  background: black;
   border: none;
   box-shadow: none;
   }
 
 .leaflet-popup-content-wrapper {
- background: #white;
+ background: black;
  border-radius: 2px;
  }
 
@@ -110,13 +112,13 @@
   margin-top: 20px;
   margin-right: 2px;
   padding-right: 12px;
-  min-width: 100 px;
+  min-width: 100px;
   max-height: 300px;
   overflow: auto;
   }
 
   .image {
-    border: 2px solid green;
+    border: 2px solid #E7CDF2;
     border-radius: 50%;
     padding: 5px;
     width: 150px;
@@ -126,7 +128,7 @@
    }
 
    .imageInfo{
-     border: 2px solid green;
+     border: 2px solid #E7CDF2 ;
      border-radius: 50%;
      padding: 5px;
      max-width: 40%;
